@@ -1,0 +1,25 @@
+{
+  "short_name": "Fabiana e Willian",
+  "name": "Nós vamos nos casar!",
+  "icons": [
+    {
+      "src": "img-link.png",
+      "sizes": "64x64 32x32 24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "img-link.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img-link.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
