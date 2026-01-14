@@ -3,8 +3,8 @@ import React from 'react';
 const GiftList = () => {
     const gifts = [
         { title: "Presente ideal", img: "presente.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966de27-57be-49b2-b31e-195c313944d0", price: "0,00" },
-        { title: "Só pra não dizer que não dei nada", img: "SO.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc4a-62c8-4d9a-a78c-a61c9f57958a", price: "1024,08" },
-        { title: "Fundo Emergencial para TPM", img: "TPM.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc6f-c79a-47c2-829a-6e6ae4df46fd", price: "70,00"  },
+        { title: "Só pra não dizer que não dei nada", img: "SO.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc2c-d5b6-478d-bf20-694a433b78cb", price: "50,00" },
+        { title: "Fundo Emergencial para TPM", img: "TPM.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc4a-62c8-4d9a-a78c-a61c9f57958a", price: "70,00"  },
         { title: "KIT para Ressaca", img: "RESSACA.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc6f-c79a-47c2-829a-6e6ae4df46fd", price: "100,00"  },
         { title: "Despertador para a noiva", img: "DESPERTADOR.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc81-93af-4800-9021-f9172d479162", price: "130,00"  },
         { title: "Panos de prato novos para diarista (noiva)", img: "PANOS.jpeg", link: "https://nubank.com.br/cobrar/120ayp/6966dc91-e990-4ea7-b5b2-cdf24acc6d01", price: "150,00"  },

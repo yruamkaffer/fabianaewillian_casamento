@@ -18,7 +18,7 @@ const SaveTheDate = () => {
                 </div>
 
                 <h3 className='font-great-vibes text-[32px] sm:text-[46px] text-[#FFF] text-shadow leading-none py-2'>
-                    Abril, 11 de 2026
+                    11 de Abril de 2026
                 </h3>
 
                 <img src='./oliveira.svg' alt='folhas' className='w-full max-w-[4rem] sm:max-w-[5rem]' />
