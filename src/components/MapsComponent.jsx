@@ -1,53 +1,22 @@
-import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import React from 'react';
 import '../App.css';
 
-const containerStyle = {
-    width: '100%',
-    height: '100%',
-    zIndex: 5,
-};
-
-const center = {
-    lat: -26.2825128,
-    lng: -48.8335742,
-};
-
-const options = {
-    streetViewControl: false,
-    mapTypeControl: false,
-    fullscreenControl: false,
-};
-
 const MapsComponent = () => {
-    const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || '';
-
-    const { isLoaded } = useJsApiLoader({
-        id: 'google-map-script',
-        googleMapsApiKey: apiKey
-    });
-
-    if (!isLoaded) {
-        return <div style={{ textAlign: 'center' }}>Carregando mapa...</div>;
-    }
-
     return (
         <div className="mapContainer">
-            <GoogleMap
-                mapContainerStyle={containerStyle}
-                center={center}
-                zoom={16} // mais próximo para foco no local
-                options={options}
-            >
-                {/* Marcador no endereço desejado */}
-                <Marker
-                    position={center}
-                    animation={window.google.maps.Animation.DROP}
-                    title="Paróquia São Francisco de Assis"
-                />
-            </GoogleMap>
+            <iframe
+                title="Mapa - Paróquia São Francisco de Assis"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-48.840%2C-26.286%2C-48.827%2C-26.279&layer=mapnik&marker=-26.2825128%2C-48.8335742"
+                style={{
+                    border: 0,
+                    width: '100%',
+                    height: '100%',
+                }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+            />
         </div>
     );
-}
+};
 
 export default MapsComponent;
