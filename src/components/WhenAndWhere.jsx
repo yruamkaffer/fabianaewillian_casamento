@@ -21,6 +21,16 @@ const WhenAndWhere = () => {
             </div>
             
             <MapsComponent />
+
+            <a
+  href="https://www.google.com/maps?q=-26.2825128,-48.8335742"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ display: 'block', marginTop: '10px', textAlign: 'center' }}
+>
+  📍 Abrir rota no Google Maps
+</a>
+
         </div>
     );
 };

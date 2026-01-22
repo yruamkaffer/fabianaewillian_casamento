@@ -2,8 +2,6 @@ import React from 'react';
 import { PiDressDuotone } from 'react-icons/pi';
 import { FaPlaceOfWorship, FaMapMarkedAlt } from "react-icons/fa";
 import { FaCalendarAlt, FaClock } from 'react-icons/fa';
-import { BiSolidDish } from 'react-icons/bi';
-import { DividerLine } from './SaveTheDate';
 
 const FAQ = () => {
     const faqData = [

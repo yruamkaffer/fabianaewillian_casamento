@@ -55,7 +55,7 @@ function App() {
           <span >Feito com</span>
           <FaHeart className="text-[#ad1d1d]" />
           <span >by</span>
-          <a href="#" target="_blank" rel="noopener noreferrer" className=" hover:text-[#cfaf46] transition-colors font-semibold">Yruam e Milena</a>
+          <a href="#span" target="_blank" rel="noopener noreferrer" className=" hover:text-[#cfaf46] transition-colors font-semibold">Yruam e Milena</a>
         </div>
       </footer>
     </>
