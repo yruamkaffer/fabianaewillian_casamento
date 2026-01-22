@@ -20,7 +20,7 @@ const options = {
 };
 
 const MapsComponent = () => {
-    const apiKey = process.env.REACT_APP_API_KEY || '';
+    const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || '';
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
