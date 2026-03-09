@@ -28,7 +28,7 @@ const FAQ = () => {
         {
             icon: <PiDressDuotone size={56} color="#4e6146" className="bg-[#c8dcbf] rounded-full p-2" />,
             question: 'Vestimenta?',
-            answer: 'Traje esporte fino. Evitar as cores: Branca, Preto e Verde.',
+            answer: 'Traje esporte fino. Mulheres evitar as cores: Branca e Verde. Homens evitar as cores: Grafite/Chumbo.',
         },
 
     ];
